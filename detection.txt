@@ -23,3 +23,5 @@ Response Actions:
 - Temporary IP blocking recommended
 - User account monitoring enabled
 - Escalation to SOC Tier 2 analyst
+
+add brute force detection rule.
