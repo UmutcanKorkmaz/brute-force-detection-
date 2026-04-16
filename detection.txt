@@ -1,1 +1,25 @@
 
+Rule Name: Brute Force Detection
+
+Description:
+Detect multiple failed authentication attempts from a single IP address within a short time window.
+
+Detection Logic:
+- Monitor authentication logs
+- Group by IP address
+- Time window: 5 minutes
+- Trigger alert if:
+  - ≥5 AUTH_FAIL events from same IP
+  OR
+  - AUTH_SUCCESS occurs after multiple AUTH_FAIL events
+
+Severity Mapping:
+- 3-4 failures → Medium Risk
+- 5+ failures → High Risk
+- Failures + Success → Critical Risk
+
+Response Actions:
+- Flag IP for review
+- Temporary IP blocking recommended
+- User account monitoring enabled
+- Escalation to SOC Tier 2 analyst
