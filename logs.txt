@@ -1,1 +1,17 @@
 
+2026-04-16 10:01:12 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+2026-04-16 10:01:35 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+2026-04-16 10:02:03 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+2026-04-16 10:02:41 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+2026-04-16 10:03:10 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+
+2026-04-16 10:03:44 AUTH_SUCCESS user=admin ip=185.22.31.4 method=password
+2026-04-16 10:03:45 SESSION_CREATED user=admin ip=185.22.31.4 session_id=9xA31k
+
+2026-04-16 10:05:02 AUTH_FAIL user=john.doe ip=185.22.31.4 method=password
+2026-04-16 10:05:18 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+2026-04-16 10:05:33 AUTH_FAIL user=test.user ip=185.22.31.4 method=password
+2026-04-16 10:05:49 AUTH_FAIL user=guest ip=185.22.31.4 method=password
+2026-04-16 10:06:10 AUTH_FAIL user=admin ip=185.22.31.4 method=password
+
+add authentication logs.
